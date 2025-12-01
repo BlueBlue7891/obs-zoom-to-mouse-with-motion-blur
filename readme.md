@@ -91,6 +91,10 @@ This script is a fork of [BlankSourceCode/obs-zoom-to-mouse](https://github.com/
 - Fixed `obs_property_get_group_properties` compatibility issue
 - Improved zoom animation timing
 
+## 🧪 Tested Environment
+
+This script has been developed and tested on **OBS Studio 32.0.2**. While it should work with other versions, OBS 32.0.2 is the confirmed working environment.
+
 ## 🐛 Troubleshooting
 
 ### Common Issues:
