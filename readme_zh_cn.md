@@ -126,7 +126,7 @@
 - 运动模糊概念受专业视频编辑软件启发
 
 ## 🌐 Language
-- [English Documentation](README.md)
+- [English Documentation](readme.md)
 
 
 
