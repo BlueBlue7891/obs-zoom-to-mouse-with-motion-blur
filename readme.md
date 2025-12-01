@@ -2,6 +2,8 @@
 
 An enhanced OBS Lua script that zooms a display-capture source to focus on the mouse cursor — now with configurable motion blur for smooth, cinematic transitions.
 
+- [中文文档](readme_zh_cn.md)
+
 ## 🚀 Features
 
 - **Zoom to Mouse**: Automatically zooms your display capture source to focus on the mouse cursor
@@ -21,12 +23,9 @@ An enhanced OBS Lua script that zooms a display-capture source to focus on the m
 
 1. Download the `obs-zoom-to-mouse-motion-blur.lua` script file
 2. Place it in your OBS scripts folder:
-   - Windows: `%APPDATA%\obs-studio\scripts`
-   - macOS: `~/Library/Application Support/obs-studio/scripts`
-   - Linux: `~/.config/obs-studio/scripts`
-3. Restart OBS Studio
-4. Go to Tools → Scripts and add the script
-5. Configure your source and settings in the script properties
+   - Windows: `C:\Program Files\obs-studio\data\obs-plugins\frontend-tools\scripts`
+3. Go to Tools → Scripts and add the script
+4. Configure your source and settings in the script properties
 
 ## ⚙️ Configuration
 
