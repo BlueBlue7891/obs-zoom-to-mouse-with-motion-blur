@@ -22,9 +22,8 @@
 1. 下载 `obs-zoom-to-mouse-motion-blur.lua` 脚本文件
 2. 将其放入OBS脚本文件夹：
    - Windows: `C:\Program Files\obs-studio\data\obs-plugins\frontend-tools\scripts`
-3. 重启OBS Studio
-4. 进入 工具 → 脚本 添加脚本
-5. 在脚本属性中配置源和设置
+3. 进入 工具 → 脚本 添加脚本
+4. 在脚本属性中配置源和设置
 
 ## ⚙️ 配置说明
 
