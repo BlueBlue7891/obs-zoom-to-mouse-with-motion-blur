@@ -6,14 +6,14 @@ An enhanced OBS Lua script that zooms a display-capture source to focus on the m
 
 - **Zoom to Mouse**: Automatically zooms your display capture source to focus on the mouse cursor
 - **Motion Blur Control**: Adds configurable motion blur during zoom and pan movements
-- **Directional Blur**: Motion blur direction matches the movement vector (NEW!)
+- **Directional Blur**: Motion blur direction matches the movement vector
 - **Hotkey Support**: Toggle zoom and follow with customizable hotkeys
 - **Smooth Animations**: Customizable zoom speed and follow sensitivity
 - **Flexible Setup**: Works with various display capture sources
 
 ## 📋 Requirements
 
-- OBS Studio 28.0 or higher
+- OBS Studio 30.0 or higher
 - Lua scripting support enabled (default)
 - A display capture source to apply zoom to
 
@@ -44,10 +44,11 @@ An enhanced OBS Lua script that zooms a display-capture source to focus on the m
 
 ### Motion Blur Settings
 - **Enable Motion Blur**: Toggle motion blur control
-- **Blur Filter Name**: Name of the blur filter on your source (e.g., "Motion Blur")
-- **Blur Parameter Name**: Parameter to control (e.g., "Size", "radius", "kawase_passes")
+- **Blur Filter Name**: Name of the blur filter on your source (e.g., "Composite Blur")
+- **Blur Parameter Name**: Parameter to control (e.g., "radius", "Size", "kawase_passes")
 - **Blur Strength**: Multiplier for motion blur intensity
 - **Enable Directional Blur**: Apply blur direction matching movement vector (requires compatible blur filter)
+- **Blur Angle Parameter Name**: Parameter name for blur direction (e.g., "angle")
 
 ## 🔧 Setup Motion Blur
 
@@ -63,12 +64,16 @@ To use motion blur functionality:
    - Select "Filters"
    - Click the "+" button and add "Composite Blur"
    - Configure the blur filter settings (see image: composite_blur_settings.png)
+   
+   ![Composite Blur Settings](https://github.com/BlueBlue7891/obs-zoom-to-mouse-with-motion-blur/blob/main/composite_blur_settings.png)
 
 3. **Configure the Script**:
    - In the script settings, enable "Enable Motion Blur"
    - The script comes pre-configured with default parameters that should work with Composite Blur
    - Adjust "Blur Strength" as needed (recommended: 0.1 - 0.3, higher values may cause performance issues)
    - See image: script_settings.png for reference configuration
+     
+   ![Script Settings](https://github.com/BlueBlue7891/obs-zoom-to-mouse-with-motion-blur/blob/main/script_settings.png)
 
 ## 🎮 Hotkeys
 
@@ -123,5 +128,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - FFI mouse position code adapted from various OBS community scripts
 - Motion blur concept inspired by professional video editing software
 
-
-
+## 🌐 语言
+- [中文文档](readme_zh_cn.md)
